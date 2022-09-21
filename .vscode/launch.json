@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "lldb",
+      "request": "launch",
+      "preLaunchTask": "rust: cargo build",
+      "program": "${workspaceFolder}/target/debug/downloader.exe",
+      "args": ["--transaction", "oUnJ1xjWzmXdwJJgxybev__xOZGwq-2HlJZPHQKFO1Q", "--output", "poop"]
+    }
+  ]
+}
